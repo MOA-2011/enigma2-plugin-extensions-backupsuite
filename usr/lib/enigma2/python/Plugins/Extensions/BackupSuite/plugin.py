@@ -136,7 +136,7 @@ class BackupStart(Screen):
 			return
 		if model != "":
 #			if model == "solo2" or model == "duo2":
-			if model == "force1" or model == "force1plus":
+			if model == "force1" or model == "force1plus" or model == "tmtwinoe" or model == "tm2Toe" or model == "tmnanooe" or model == "tmsingle" or model == "tmnano2T" or model == "ios100" or model == "ios200" or model == "ios300" or model == "ios300NEW" or model == "optimussos1" or model == "optimussos2" or model == "tmnano2super" or model == "tmnano3tcombo" or model == "tmnanose" or model == "tmnanosecombo" or model == "tmnanoeco" or model == "force1" or model == "force1plus" or model == "force2" or model == "force2plus" or model == "optimussos1plus" or model == "optimussos2plus" or model == "optimussos3plus" :
 				files = "^.*\.(zip|bin|update)"
 			else:
 				files = "^.*\.(zip|bin|jffs2)"
@@ -286,7 +286,7 @@ class FlashImageConfig(Screen):
 					f = open("/proc/stb/info/hwmodel")
 					model = f.read().strip()
 					f.close()
-					if model in ["force1", "force1plus"]:
+					if model in ["force1", "force1plus", "twin", "2T", "nano", "single", "nano2T", "ios100", "ios200", "ios300", "ios300NEW", "optimussos1", "optimussos2", "tmnano2super", "tmnano3tcombo", "tmnanose", "tmnanosecombo", "tmnanoeco", "force2", "force2plus", "optimussos1plus", "optimussos2plus", "optimussos3plus"]:
 						backup_files = [("oe_kernel"), ("oe_rootfs.bin")]
 						no_backup_files = ["oe_kernel.bin", "oe_rootfs.bin", "oe_rootfs.bin"]
 						text += 'oe_kernel.bin, oe_rootfs.bin'

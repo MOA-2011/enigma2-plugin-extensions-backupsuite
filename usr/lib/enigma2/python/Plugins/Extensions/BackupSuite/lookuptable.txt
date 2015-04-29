@@ -1,34 +1,25 @@
 BRAND AND MODEL	MODEL	SHOWNAME	FOLDER	EXTR1	EXTR2	MKUBIFS_ARGS	UBINIZE_ARGS	ROOTNAME	KERNELNAME	ACTION	MESSAGE
-Atemio 5200	ini-1000am	Atemio 5200	/atemio/5x00	/fullbackup_5x00	/atemio	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-Atemio Nemesis	ini-8000am	Atemio Nemesis	/atemio/8x00	/fullbackup_nemesis	/atemio	-m 4096 -e 1040384 -c 1984	-m 4096 -p 1024KiB	rootfs.bin	kernel.bin	noforce	message14
-HD 2400	hd2400	HD 2400	/hd2400	/fullbackup_hd2400		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-HD 1100	hd1100	HD 1100	/hd1100	/fullbackup_hd1100		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin 	noforce	message12
-Ixuss One	ixussone	Ixuss One	/medialink/ixussone	/fullbackup_ixussone	/medialink	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message35
-Ixuss Zero	ixusszero	Ixuss Zero	/medialink/ixusszero	/fullbackup_ixusszero	/medialink	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message35
-Max-Digital XP1000	xp1000	Max-Digital XP1000	/xp1000	/fullbackup_xp1000		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-Miraclebox Mini	ini-1000sv	Miraclebox Mini	/miraclebox/mini	/fullbackup_mbmini	/miraclebox	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-Miraclebox Twin	ini-5000sv	Miraclebox Twin	/miraclebox/twin	/fullbackup_mbtwin	/miraclebox	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-Miraclebox Ultra	ini-8000sv	Miraclebox Ultra	/miraclebox/ultra	/fullbackup_mbultra	/miraclebox	-m 4096 -e 1040384 -c 1984	-m 4096 -p 1024KiB	rootfs.bin	kernel.bin	noforce	message14
-Octagon	xp1000s	Octagon XP1000s	/xp1000	/fullbackup_xp1000		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-VU Duo	duo	Vu+ Duo	/vuplus/duo	/fullbackup_duo	/vuplus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	root_cfe_auto.jffs2	kernel_cfe_auto.bin	none	message12
-VU Duo2	duo2	Vu+ Duo2	/vuplus/duo2	/fullbackup_duo2	/vuplus	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	root_cfe_auto.bin	kernel_cfe_auto.bin	reboot	message12
-VU Solo	solo	Vu+ Solo	/vuplus/solo	/fullbackup_solo	/vuplus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	root_cfe_auto.jffs2	kernel_cfe_auto.bin	none	message12
-VU Solo SE	solose	VU+ Solo SE	/vuplus/solose	/fullbackup_solose	/vuplus	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	root_cfe_auto.jffs2	kernel_cfe_auto.bin	reboot	message12
-VU Solo2	solo2	VU+ Solo2	/vuplus/solo2	/fullbackup_solo2	/vuplus	-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	root_cfe_auto.bin	kernel_cfe_auto.bin	reboot	message12
-VU Ultimo	ultimo	VU+ Ultimo	/vuplus/ultimo	/fullbackup_ultimo	/vuplus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	root_cfe_auto.jffs2	kernel_cfe_auto.bin	reboot	message12
-VU Uno	uno	VU+ Uno	/vuplus/uno	/fullbackup_uno	/vuplus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	root_cfe_auto.jffs2	kernel_cfe_auto.bin	reboot	message12
-Xpeed LX	ini-1000de	Xpeed LX	/xpeedlx	/fullbackup_xpeed		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message14
-Xtrend 10000	et10000	Xtrend ET10000	/et10000	/fullbackup_et10000		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 4000	et4000	Xtrend ET4000	/et4x00	/fullbackup_et4x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message13
-Xtrend 5000	et5000	Xtrend ET5000	/et5x00	/fullbackup_et5x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message13
-Xtrend 6000	et6000	Xtrend ET6000	/et6x00	/fullbackup_et6x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message13
-Xtrend 6500	et6500	Xtrend ET6500	/et6x00	/fullbackup_et6x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 7000	et7000	Xtrend ET7000	/et7x00	/fullbackup_et7x00		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 7500	et7500	Xtrend ET7500	/et7x00	/fullbackup_et7x00		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 8000	et8000	Xtrend ET8000	/et8000	/fullbackup_et8000		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 8500	et8500	Xtrend ET8500	/et8500	/fullbackup_et8500		-m 2048 -e 126976 -c 8192	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 9000	et9000	Xtrend ET9000	/et9x00	/fullbackup_et9x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 9200	et9200	Xtrend ET9200	/et9x00	/fullbackup_et9x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
-Xtrend 9500	et9500	Xtrend ET9500	/et9x00	/fullbackup_et9x00		-m 2048 -e 126976 -c 4096	-m 2048 -p 128KiB	rootfs.bin	kernel.bin	noforce	message12
 WV Force1	force1	WV FORCE1	/update/force1/cfe	/fullbackup_force1	/update/force1	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
 WV Force1+	force1plus	WV FORCE1+	/update/force1plus/cfe	/fullbackup_force1plus	/update/force1plus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmtwinoe	tmtwinoe	TM TMTWINOE	/update/tmtwinoe/cfe	/fullbackup_tmtwinoe	/update/tmtwinoe	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tm2toe	tm2toe	TM TM2TOE	/update/tm2toe/cfe	/fullbackup_tmwinoe	/update/tm2toe	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnanooe	tmnanooe	TM TMNANOOE	/update/tmnanooe/cfe	/fullbackup_tmnanooe	/update/tmnanooe	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmsingle	tmsingle	TM TMSINGLE	/update/tmsingle/cfe	/fullbackup_tmsingle	/update/tmsingle	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnano2t	tmnano2t	TM TMNANO2T	/update/tmnano2t/cfe	/fullbackup_tmnano2t	/update/tmnano2t	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Ios100	ios100	IQ IOS100	/update/ios100/cfe	/fullbackup_ios100	/update/ios100	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Ios200	ios200	IQ IOS200	/update/ios200/cfe	/fullbackup_ios200	/update/ios200	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Ios300	ios300	IQ IOS300	/update/ios300/cfe	/fullbackup_ios300	/update/ios300	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Ios300new	ios300new	IQ IOS300NEW	/update/ios300new/cfe	/fullbackup_ios300	/update/ios300	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos1	optimussos1	ED OPTIMUSSOS1	/update/optimussos1/cfe	/fullbackup_optimussos1	/update/optimussos1	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos2	optimussos2	ED OPTIMUSSOS2	/update/optimussos2/cfe	/fullbackup_optimussos2	/update/optimussos2	-m 2048 -e 126976 -c 4096 -F	-m 2048	-p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnano2super	tmnano2super	TM TMNANO2SUPER	/update/tmnano2super/cfe	/fullbackup_tmnano2super	/update/tmnano2super	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnano3tcombo	tmnano3tcombo	TM TMNANO3TCOMBO	/update/tmnano3tcombo/cfe	/fullbackup_tmnano3tcombo	/update/tmnano3tcombo	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnanose	tmnanose	TM TMNANOSE	/update/tmnanose/cfe	/fullbackup_tmnanose	/update/tmnanose	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnanosecombo	tmnanosecombo	TM TMNANOSECOMBO	/update/tmnanosecombo/cfe	/fullbackup_tmnanosecombo	/update/tmnanosecombo	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+TM Tmnanoeco	tmnanoeco	TM TMNANOECO	/update/tmnanoeco/cfe	/fullbackup_tmnanoeco	/update/tmnanoeco	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Force2	force2	IQ FORCE2	/update/force2/cfe	/fullbackup_force2	/update/force2	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+IQ Force2+	force2plus	IQ FORCE2+	/update/force2plus/cfe	/fullbackup_force2plus	/update/force2plus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos1plus	optimussos1plus	ED OPTIMUSSOS1PLUS	/update/optimussos1plus/cfe	/fullbackup_optimussos1plus	/update/optimussos1plus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos2plus	optimussos2plus	ED OPTIMUSSOS2PLUS	/update/optimussos2plus/cfe	/fullbackup_optimussos2plus	/update/optimussos2plus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos3plus	optimussos3plus	ED OPTIMUSSOS3PLUS	/update/optimussos3plus/cfe	/fullbackup_optimussos3plus	/update/optimussos3plus	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
+ED Optimussos	optimussos	ED OPTIMUSSOS	/update/optimussos/cfe	/fullbackup_optimussos	/update/optimussos	-m 2048 -e 126976 -c 4096 -F	-m 2048 -p 128KiB	oe_rootfs.bin	oe_kernel.bin	reboot	message12
